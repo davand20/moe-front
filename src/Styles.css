@@ -1,0 +1,90 @@
+body{
+    background-color: #F2F2F2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td> a{
+    color:black;
+    text-decoration: none;
+}
+h1{
+    background-color: #011140;
+    color:white;
+}
+
+
+
+.card-curso{
+    display: grid;
+    vertical-align: middle; 
+    background-color:white;
+    height: 100px;
+    min-width: 200px;
+    border-radius: 25px;
+    align-items: center;
+    background-clip:border-box;
+    border:1px solid;
+    border-color:#54B5BF;
+}
+.card-curso > a{
+    color:black;
+    text-decoration: none;
+}
+tr > a{
+    color:black;
+    text-decoration: none;
+}
+tr > a:hover{
+    color:black;
+    text-decoration: none;
+}
+#cursos{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#tMonitores{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card{
+    background-color:white;
+    background-clip:border-box;
+    border:1px solid;
+    border-color:#54B5BF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.card-comentario{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color:white;
+    background-clip:border-box;
+    border:1px solid;
+    border-color:#54B5BF;
+    border-radius: 15px;
+}
+.card-monitoria{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+    background-color:white;
+    background-clip:border-box;
+    border:1px solid;
+    border-color:#54B5BF;
+    border-radius: 15px;
+}
+.btn.btn-info>a{
+    color:white;
+    text-decoration: none;
+}
+.row.banner{
+    background-color: #011140;
+    align-items: center;
+    text-decoration: none;
+}
+.row.banner a{
+    text-decoration: none;
+}
+
