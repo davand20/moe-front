@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from "./components/Login";
 import Main from "./components/Main";
@@ -11,7 +11,7 @@ import Usuario from "./components/Usuario";
 
 const App = () => (
 
-    <HashRouter>
+    <BrowserRouter>
         <Switch>
             <Route path="/" component={Login} exact />
             <Route path="/:userId/cursos" component={Main} exact />
@@ -19,7 +19,7 @@ const App = () => (
             <Route path="/:userId/monitor/:monitorId" component={Monitor} exact />
             <Route path="/:userId/usuario" component={Usuario} exact />
         </Switch>
-    </HashRouter>
+    </BrowserRouter>
 
 )
 ReactDOM.render(<App />, document.getElementById("root"));
